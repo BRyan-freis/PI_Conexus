@@ -1,0 +1,159 @@
+/* Importando a fonte Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Reset e configuração global */
+*, html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Paleta de cores */
+:root {
+    --blue: #083b99;
+    --white: #ffffff;
+    --dark: #000000;
+    --green: rgb(0, 156, 91);
+}
+
+/* Configurações gerais do body */
+body {
+    color: var(--dark);
+    background: var(--white);
+}
+
+/* ---------------------- */
+/*        HOME            */
+/* ---------------------- */
+.home {
+    padding: 40px;
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.home-text {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+/* Títulos centralizados */
+.home-header h1,
+.home-header h3 {
+    text-align: center;
+}
+
+/* Texto alinhado à esquerda */
+.home-text p {
+    text-align: left;
+    line-height: 1.6;
+}
+
+/* Ícones ou spans dentro dos parágrafos */
+.home-text p span {
+    margin-right: 5px;
+}
+
+/* Imagem */
+.home-img {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.home-img img {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* ---------------------- */
+/*      SEÇÃO CARDS       */
+/* ---------------------- */
+#compromisse, .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.row {
+    text-align: center;
+    color: var(--dark);
+    border-radius: 15px;
+}
+
+/* Container dos cards */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    gap: 20px;
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 15px;
+    color: var(--dark);
+}
+
+/* Box geral */
+.boxes {
+    border-radius: 15px;
+}
+
+/* Cada card */
+.box {
+    border-radius: 15px;
+    padding: 20px;
+    background-color: var(--white);
+    box-shadow: 0 0.1rem 0.5rem rgba(15, 15, 15, 0.5);
+}
+
+/* Títulos das seções */
+.title {
+    text-align: center;
+}
+
+/* Cores especiais para textos */
+.string {
+    color: var(--blue);
+}
+
+/* ---------------------- */
+/*       RESPONSIVO       */
+/* ---------------------- */
+@media (max-width: 1024px) {
+    #titulo, .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-header {
+        align-items: center;
+    }
+    .home-content {
+        flex-direction: column;
+    }
+
+    .home-img {
+        max-width: 100%;
+    }
+
+    .home-img img {
+        width: 100%;
+    }
+}
