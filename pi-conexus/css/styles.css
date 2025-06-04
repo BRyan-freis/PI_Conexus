@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Romanesco&family=Wallpoet&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Header */
+
+.header{
+    background-color: #021228;
+    color: color;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    text-decoration: none;  
+}
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-family: 'Josefin Sans' sans-serif;
+}
+
+.container {
+    align-items: right;
+    text-align: right;
+    justify-content: flex-end;
+    float: right;
+}
+
+.logo span{
+        background: linear-gradient(to bottom, #fff, #009C5B); 
+        -webkit-background-clip: text; 
+        color: transparent; 
+        text-decoration: none;
+}
+.header span{
+    background: linear-gradient(to bottom, #fff, #009C5B); 
+    -webkit-background-clip: text; 
+    color: transparent; 
+    text-decoration: none;
+}
+
+.header ul{
+    display: flex;
+    align-items: right;
+    text-align: right;
+    gap: 3.3rem;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.header ul li a{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.5s;
+    text-decoration: none;
+    list-style: none;
+}
+.header ul li a:hover{
+    color: #033361;
+}
+
+/* Footer */
+ 
+.site-footer {
+    background-color: #021228;
+    color: white;
+    padding: 40px 20px 20px;
+    font-family: 'Poppins', sans-serif;
+ 
+}
+ 
+.container-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1800px;
+    margin: 0 auto;
+    gap: 20px;
+}
+ 
+.footer-logo a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+ 
+.footer-links,
+.footer-social {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    text-align: center;
+    
+}
+ 
+.footer-links a,
+.footer-social a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+ 
+.footer-links a:hover
+.footer-social a:hover {
+    color: white;
+}
+ 
+ 
+.footer-links i,
+.footer-social i {
+    margin-right: 5px;
+}
+ 
+.footer-social {
+    flex-direction: row;
+    gap: 10px;
+}
+ 
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid rgb(255, 255, 255);
+    margin-top: 30px;
+    padding-top: 15px;
+    font-size: 14px;
+    color: white;
+}
+
+.footer-links span{
+    background: linear-gradient(to bottom, #fff, #009C5B); 
+    -webkit-background-clip: text; 
+    color: transparent; 
+}
+.footer-links a:hover{
+    color: #033361;
+}
+.footer-logo span{
+    background: linear-gradient(to bottom, #fff, #009C5B); 
+    -webkit-background-clip: text; 
+    color: transparent; 
+}
+.footer-logo a:hover{
+    color: #033361; ;
+}
+
+.footer-social a:hover{
+    color: #033361;
+}
+
+/* Responsividade no mobile */
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+}
+ 
+@media (max-width:785px){
+
+}
