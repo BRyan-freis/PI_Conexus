@@ -47,7 +47,7 @@ body {
     display: flex;
     align-items: right;
     text-align: right;
-    gap: 5rem;
+    gap: 3.3rem;
     justify-content: flex-end;
     list-style: none;
     padding: 0;
@@ -69,7 +69,7 @@ body {
 /* Footer */
  
 .site-footer {
-    background-color: rgb(16, 31, 80);
+    background-color: #021228;
     color: white;
     padding: 40px 20px 20px;
     font-family: 'Poppins', sans-serif;
@@ -139,7 +139,29 @@ body {
     font-size: 14px;
     color: white;
 }
- 
+
+.footer-links span{
+    background: linear-gradient(to bottom, #fff, #009C5B); 
+    -webkit-background-clip: text; 
+    color: transparent; 
+}
+.footer-links a:hover{
+    color: #033361;
+}
+.footer-logo span{
+    background: linear-gradient(to bottom, #fff, #009C5B); 
+    -webkit-background-clip: text; 
+    color: transparent; 
+}
+.footer-logo a:hover{
+    color: #033361; ;
+}
+
+.footer-social a:hover{
+    color: #033361;
+}
+
+
 /* Responsividade no mobile */
 
 @media (max-width: 768px) {
