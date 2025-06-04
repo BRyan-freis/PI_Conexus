@@ -157,3 +157,9 @@ body {
         width: 100%;
     }
 }
+
+.footer-social span{
+    background: linear-gradient(to bottom, #fff, #009C5B); 
+    -webkit-background-clip: text; 
+    color: transparent; 
+}
